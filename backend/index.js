@@ -23,6 +23,11 @@ mongoose
 
 app.use("/", Routes);
 
+// Simple ping route to check server status
+app.get("/ping", (req, res) => {
+  res.status(200).json({ message: "🏓 Pong! Server is working fine." });
+});
+
 app.listen(PORT, () => {
   console.log(`✅ Server started at port no. ${PORT}`);
 });
