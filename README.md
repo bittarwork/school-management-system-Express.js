@@ -1,80 +1,112 @@
-# school-management-system-Express.js
-# SchoolPro
+# Project Name: EduQuest
 
-SchoolPro is a comprehensive school management system designed to simplify and enhance the administrative processes in educational institutions. This system provides tools for managing students, teachers, classes, subjects, assignments, events, and more, all in one place.
+# made by Harsal Katakiya
+
+# Project ID: BIT6F2X008
+
+<h3 align="center">
+Streamline school management, class organization, and add students and faculty.<br>
+Seamlessly track attendance, assess performance, and provide feedback. <br>
+Access records, view marks, and communicate effortlessly.
+</h3>
+
+
+# About
+
+The School Management System is a web-based application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to streamline school management, class organization, and facilitate communication between students, teachers, and administrators.
 
 ## Features
 
-- **User Management**: Admins, teachers, students, and parents can have their own accounts with specific roles and permissions.
-- **Class Management**: Create, update, and manage classes and their schedules.
-- **Subject Management**: Assign subjects to classes and track their details.
-- **Assignment Tracking**: Create and manage assignments and their submissions.
-- **Event Management**: Schedule and manage school events.
-- **Attendance Tracking**: Monitor and record student attendance.
+- **User Roles:** The system supports three user roles: Admin, Teacher, and Student. Each role has specific functionalities and access levels.
 
-## Installation
+- **Admin Dashboard:** Administrators can add new students and teachers, create classes and subjects, manage user accounts, and oversee system settings.
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/schoolpro.git
-    cd schoolpro
-    ```
+- **Attendance Tracking:** Teachers can easily take attendance for their classes, mark students as present or absent, and generate attendance reports.
 
-2. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+- **Performance Assessment:** Teachers can assess students' performance by providing marks and feedback. Students can view their marks and track their progress over time.
 
-3. **Set Up Environment Variables**:
-    Create a `.env` file in the root directory and add your environment variables:
-    ```env
-    MONGODB_URI=your_mongodb_uri
-    PORT=3000
-    ```
+- **Data Visualization:** Students can visualize their performance data through interactive charts and tables, helping them understand their academic performance at a glance.
 
-4. **Run the Application**:
-    ```bash
-    npm start
-    ```
+- **Communication:** Users can communicate effortlessly through the system. Teachers can send messages to students and vice versa, promoting effective communication and collaboration.
 
-## API Endpoints
+## Technologies Used
 
-- **Admin**
-  - `POST /admin/register` - Register a new admin.
-  - `POST /admin/login` - Log in an admin.
+- Frontend: React.js, Material UI, Redux
+- Backend: Node.js, Express.js
+- Database: MongoDB
 
-- **Classroom**
-  - `POST /classroom` - Create a new classroom.
-  - `GET /classroom/:id` - Get details of a specific classroom.
-  - `DELETE /classroom/:id` - Delete a specific classroom.
-  - `GET /classrooms` - List all classrooms.
+<br>
+### Prerequisites
 
-- **Event**
-  - `POST /event` - Create a new event.
-  - `GET /event/:id` - Get details of a specific event.
-  - `DELETE /event/:id` - Delete a specific event.
-  - `GET /events` - List all events.
+1. **Node Js**: Make sure you have Node Js software installed in your system or download and install from [nodejs.org](https://nodejs.org/dist/v18.18.2/node-v18.18.2-x64.msi)
 
-- **Assignment**
-  - `POST /assignment` - Create a new assignment.
-  - `GET /assignment/:id` - Get details of a specific assignment.
-  - `DELETE /assignment/:id` - Delete a specific assignment.
-  - `GET /assignments` - List all assignments.
+2. **Stable Internet Connection**: A good, high-speed internet connection is essential for efficiently downloading project dependencies and updates from package repositories.
 
-- **Parent**
-  - `POST /parent` - Add a new parent.
-  - `GET /parent/:id` - Get details of a specific parent.
-  - `DELETE /parent/:id` - Delete a specific parent.
-  - `GET /parents` - List all parents.
+3. **Visual Studio Code (IDE)**: Make sure you have installed IDE like Visual Studio Code for code editing.
 
-## Contributing
 
-We welcome contributions to improve SchoolPro. Please fork the repository and submit pull requests with your proposed changes. For major changes, please open an issue to discuss what you would like to change before submitting a pull request.
+# Installation
+
+```sh
+git clone https://github.com/Harshalkatakiya/school-management-system-MERN-stack.git
+```
+Open 2 terminals in separate windows/tabs.
+
+Terminal 1: Setting Up Backend 
+```sh
+cd backend
+npm install
+npm start
+```
+
+Terminal 2: Setting Up Frontend
+```sh
+cd frontend
+npm install
+npm start
+```
+Now, navigate to `localhost:3000` in your browser.
+
+### Now, EduQuest project will be start automatically in your default browser, but prefer Microsoft Edge for seamless experience.
+
+
+### Admin Login
+
+You can use the following admin login credentials to access the admin panel:
+
+- **Admin Email**: harshal@gmail.com
+- **Admin Password**: Harshal@123
+
+
+### Faculty Login
+
+You can use the following faculty login credentials to access the faculty panel:
+
+- **Faculty Email**: gujaratiprakash@gmail.com
+- **Faculty Password**: Prakash@123
+
+
+### Student Login
+
+You can use the following student login credentials to access the student panel:
+
+- **Student Roll No**: 1
+- **Student Name**: Kartik Gohil
+- **Student Email**: kartik@gmail.com
+- **Student Password**: Kartik@123
+
+
+### Start the Application
+
+1. Ensure the React JS application is running in the command prompts.
+
+2. Open your web browser and access the project by entering the URL, e.g., [http://localhost:3000](http://localhost:3000) 
+
+You have now successfully run the EduQuest project.
+
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
 
-## Contact
-
-For any questions or support, please contact [bittar.work@gmail.com](mailto:bittar.work@gmail.com).
+For any questions or issues, please contact Harsal Katakiya.
